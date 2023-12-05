@@ -1,10 +1,10 @@
-# Preliminary Spatial Feedbacks used to help develop the GFMIP protocol
+# Preliminary spatial feedbacks used to help develop the GFMIP protocol
 
 ## About
 
 This repository contains the spatial feedbacks from Figure 2 of the [GFMIP protocol paper](https://essopenarchive.org/users/554553/articles/627762-the-green-s-function-model-intercomparison-project-gfmip-protocol) (referred to there as normalized derivatives of global-mean net top-of-atmosphere radiative flux, N). These feedbacks are only preliminary results used to help design the GFMIP protocol, and should be used with this in mind. 
 
-Each model has its own NetCDF file in the data directory. For models with feedbacks estimated using both warming and cooling perturbations, there are three variables (warming, cooling, and both); otherwise only the feedbacks from warming are given. Values are normalized by grid-cell in such a way that feedback values are intensive, rather than extensive (i.e., the value in a grid cell shows what the ocean-mean feedback would be if all other cells had the same feedback as that grid cell). For more info, see the Appendix in the paper.
+Each model has its own NetCDF file in the data directory. For models with feedbacks estimated using both warming and cooling perturbations, there are three variables (warming, cooling, and both); otherwise only the feedbacks from warming are given. Values are normalized by grid-cell area in such a way that feedback values are intensive, rather than extensive (i.e., the value in a grid cell shows what the ocean-mean feedback would be if all other cells had the same feedback as that grid cell). For more info, see the Appendix in the paper.
 
 ## Data
 
